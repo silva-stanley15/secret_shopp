@@ -1,0 +1,21 @@
+-- auto-generated definition
+create schema secret_shop collate utf8mb4_general_ci;
+
+create table item
+(
+    id_item         int auto_increment
+        primary key,
+    nome            varchar(45)  null,
+    descricao       varchar(255) null,
+    preco           decimal      null,
+    forca           decimal      null,
+    agilidade       decimal      null,
+    inteligencia    decimal      null,
+    vida            decimal      null,
+    mana            decimal      null,
+    dano            int          null,
+    armadura        decimal      null,
+    velocidadeDeAtq decimal      null,
+    imagem          varchar(255) null
+);
+
