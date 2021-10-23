@@ -1,0 +1,52 @@
+ERROR - 2021-10-22 19:57:52 --> Error connecting to the database: Unknown database 'secret_shop'
+CRITICAL - 2021-10-22 19:57:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'secret_shop'
+#0 C:\xampp\htdocs\secret_shopp\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\secret_shopp\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\secret_shopp\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\secret_shopp\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\xampp\htdocs\secret_shopp\app\Controllers\Gerencia.php(48): CodeIgniter\BaseModel->find()
+#5 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(802): App\Controllers\Gerencia->view_get()
+#6 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gerencia))
+#7 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\secret_shopp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 19:58:45 --> Error connecting to the database: Unknown database 'secret_shop'
+CRITICAL - 2021-10-22 19:58:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'secret_shop'
+#0 C:\xampp\htdocs\secret_shopp\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\secret_shopp\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\secret_shopp\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\secret_shopp\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\xampp\htdocs\secret_shopp\app\Controllers\Gerencia.php(48): CodeIgniter\BaseModel->find()
+#5 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(802): App\Controllers\Gerencia->view_get()
+#6 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gerencia))
+#7 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\secret_shopp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 20:00:05 --> Error connecting to the database: Unknown database 'secret_shopp'
+CRITICAL - 2021-10-22 20:00:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'secret_shopp'
+#0 C:\xampp\htdocs\secret_shopp\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\secret_shopp\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\secret_shopp\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\secret_shopp\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\xampp\htdocs\secret_shopp\app\Controllers\Gerencia.php(48): CodeIgniter\BaseModel->find()
+#5 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(802): App\Controllers\Gerencia->view_get()
+#6 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gerencia))
+#7 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\secret_shopp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 20:00:11 --> Error connecting to the database: Unknown database 'secret_shopp'
+CRITICAL - 2021-10-22 20:00:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'secret_shopp'
+#0 C:\xampp\htdocs\secret_shopp\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\secret_shopp\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\secret_shopp\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\secret_shopp\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\xampp\htdocs\secret_shopp\app\Controllers\Gerencia.php(48): CodeIgniter\BaseModel->find()
+#5 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(802): App\Controllers\Gerencia->view_get()
+#6 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gerencia))
+#7 C:\xampp\htdocs\secret_shopp\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\secret_shopp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
